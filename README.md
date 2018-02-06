@@ -1,24 +1,12 @@
-# README
+# Ruby On Docker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple play around test environment to get ruby configured and run on an ubuntu instance.
 
-Things you may want to cover:
+### Pre-requisites
 
-* Ruby version
+Install ruby bundle.
 
-* System dependencies
+### RUNNING DOCKER
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+its assumed youre running this app on a kernel based system (mac, linux). If yes run this command ```./docker start``` 
+get your ruby server running.
