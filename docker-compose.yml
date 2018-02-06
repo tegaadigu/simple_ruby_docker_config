@@ -1,0 +1,12 @@
+version: '2'
+services:
+    demo:
+        container_name: "demo"
+        build:
+            context: ./
+            dockerfile: ./Dockerfile #nginx
+        volumes:
+            - ./:/app
+        ports:
+            - "3000:3000"
+
